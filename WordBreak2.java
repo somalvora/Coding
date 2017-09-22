@@ -32,6 +32,7 @@ class Solution {
     
     public List<String> search(String s, int start, int max, HashSet<String> dictionary,HashMap<Integer,List<String>> dp){
         if(start==s.length()){
+            //https://stackoverflow.com/questions/26027396/arrays-aslist-vs-collections-singletonlist
             return Collections.singletonList("");
         }
         
